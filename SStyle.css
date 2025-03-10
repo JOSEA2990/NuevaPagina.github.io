@@ -1,11 +1,45 @@
+body{
+    background-size: cover;
+    background-image:url(./IMAGENES/Paisaje.jpeg);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
 div{
     background-color: aqua;
     width: 300px;
-    height: 30px;
+    height: 35px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .EditImagen{
     box-sizing: border-box;
     width: 300px;
     height: 400px;
+}
+
+p{
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-image:url(./IMAGENES/MIA.jpeg);
+    padding: auto;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(229, 245, 11, 0.4);
+    height: 50px;
+    font-size: 40px;
+}
+
+H2{
+    color:white;
+}
+
+a{
+    margin: auto;
+    color: white;
 }
